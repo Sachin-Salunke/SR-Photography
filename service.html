@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Title -->
+    <title>Services SR Photography</title>
+
+    <!-- Favicon -->
+    <link rel="icon" href="./img/core-img/favicon.png">
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <!-- Preloader -->
+    <div id="preloader">
+        <div class="loader"></div>
+    </div>
+    <!-- /Preloader -->
+
+    <!-- Top Search Form Area -->
+    <div class="top-search-area">
+        <div class="modal fade" id="searchModal" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <!-- Close -->
+                        <button type="button" class="btn close-btn" data-dismiss="modal"><i class="ti-close"></i></button>
+                        <!-- Form -->
+                        <form action="index.html" method="post">
+                            <input type="search" name="top-search-bar" class="form-control" placeholder="Search and hit enter...">
+                            <button type="submit">Search</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Header Area Start -->
+    <header class="header-area">
+        <!-- Main Header Start -->
+        <div class="main-header-area">
+            <div class="classy-nav-container breakpoint-off">
+                <div class="container">
+                    <!-- Classy Menu -->
+                    <nav class="classy-navbar justify-content-between" id="alimeNav">
+
+                        <!-- Logo -->
+                        <a class="nav-brand" href="./index.html"><img src="./img/core-img/logo.png" alt=""></a>
+
+                        <!-- Navbar Toggler -->
+                        <div class="classy-navbar-toggler">
+                            <span class="navbarToggler"><span></span><span></span><span></span></span>
+                        </div>
+
+                        <!-- Menu -->
+                        <div class="classy-menu">
+                            <!-- Menu Close Button -->
+                            <div class="classycloseIcon">
+                                <div class="cross-wrap"><span class="top"></span><span class="bottom"></span></div>
+                            </div>
+                            <!-- Nav Start -->
+                            <div class="classynav">
+                                <ul id="nav">
+                                    <li><a href="./index.html">Home</a></li>
+                                    <li><a href="#">Pages</a>
+                                        <ul class="dropdown">
+                                            <li><a href="#">-Albums</a></li>
+                                            <li><a href="#">-Payments</a></li>
+                                            <li><a href="feedback.html">-Feedback</a></li>
+                                            <li><a href="Confirm/admin/admin.php">-Admin</a></li>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="./about.html">About</a></li>
+                                    <li><a href="./gallery.html">Gallery</a></li>
+                                    <li class="active"><a href="./blog.html">Service</a></li>
+                                    <li><a href="first.php">Orders</a></li>
+                                    <li><a href="./contact.html">Contact</a></li>
+                                    <li><a href="./first.php">Login</a></li>
+                                </ul>
+
+                                <!-- Search Icon -->
+                                <div class="search-icon" data-toggle="modal" data-target="#searchModal"><i class="ti-search"></i></div>
+                            </div>
+                            <!-- Nav End -->
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Header Area End -->
+
+    <!-- Breadcrumb Area Start -->
+    <section class="breadcrumb-area bg-img bg-overlay jarallax" style="background-image: url(img/bg-img/38.jpg);">
+        <div class="container h-100">
+            <div class="row h-100 align-items-center">
+                <div class="col-12">
+                    <div class="breadcrumb-content text-center">
+                        <h2 class="page-title">Services</h2>
+                        <nav aria-label="breadcrumb">
+                            <ol class="breadcrumb justify-content-center">
+                                <li class="breadcrumb-item"><a href="index.html"><i class="icon_house_alt"></i> Home</a></li>
+                                <li class="breadcrumb-item active" aria-current="page">Service</li>
+                            </ol>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Breadcrumb Area End -->
+
+
+    
+    <head>
+        <title>Photo Upload</title>
+        <style>
+            #photoFrame {
+                width: 200px;
+                height: 200px;
+                border: 1px solid #ccc;
+                margin-bottom: 10px;
+            }
+            #photoFrame img {
+                max-width: 100%;
+                max-height: 100%;
+            }
+            body {
+            background-color:none;
+          }
+          .button {
+            display: inline-block;
+            margin: 20px;
+            cursor: pointer;
+            width: 200px;
+            height: 200px; 
+            text-align: center;
+            border: 2px solid #000;
+            padding: 5px;
+          }
+          .button img {
+            max-width: 100%;
+            max-height: 80%;
+            vertical-align: middle;
+          }
+          .button-text {
+            font-weight: bold;
+            margin-top: 10px;
+          }
+          .button-row {
+            text-align: center;
+          }
+          .page-heading {
+            text-align: center;
+          }
+        </style>
+        
+    </head>
+    <body>
+       
+      <body>
+        <br>
+        <h1 class="page-heading">Our Services</h1>
+        <br>
+      
+        <div class="button-row">
+          <div class="button" onclick="window.location.href ='passp.html'">
+            <a href="Pass.html" target="_blank"></a>
+            <img src="img/bg-img/Passport.png" alt="">
+            <div class="button-text">Passport Photos</div>
+          </div>
+          <div class="button" onclick="handleButtonClick('frames')">
+            <img src="img/bg-img/frames.jpeg" alt="">
+            <div class="button-text">Frames</div>
+          </div>
+        </div>
+      
+        <div class="button-row">
+          <div class="button" onclick="handleButtonClick('photobook')">
+            <img src="img/bg-img/phobook.jpeg" alt="">
+            <div class="button-text">PhotoBook</div>
+          </div>
+          <div class="button" onclick="handleButtonClick('Albums')">
+            <img src="img/bg-img/weding.jpg" alt="">
+            <div class="button-text">Albums</div>
+          </div>
+        </div>
+      <br>
+        <script>
+          function handleButtonClick(buttonName) {
+            alert("Button clicked: " + buttonName);
+          }
+        </script>
+    
+
+    
+
+    <!-- Follow Area Start -->
+    <div class="follow-area clearfix">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="section-heading text-center">
+                        <h3>Follow On Meta</h3>
+                        <p>SR Photography</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Instagram Feed Area -->
+        <div class="instragram-feed-area owl-carousel">
+            <!-- Single Instagram Item -->
+            <div class="single-instagram-item">
+                <img src="img/bg-img/11.jpg" alt="">
+                <div class="instagram-hover-content text-center d-flex align-items-center justify-content-center">
+                    <a href="#">
+                        <i class="ti-instagram" aria-hidden="true"></i>
+                        <span>SR Photography</span>
+                    </a>
+                </div>
+            </div>
+            <!-- Single Instagram Item -->
+            <div class="single-instagram-item">
+                <img src="img/bg-img/12.jpg" alt="">
+                <div class="instagram-hover-content text-center d-flex align-items-center justify-content-center">
+                    <a href="#">
+                        <i class="ti-instagram" aria-hidden="true"></i>
+                        <span>SR Photography</span>
+                    </a>
+                </div>
+            </div>
+            <!-- Single Instagram Item -->
+            <div class="single-instagram-item">
+                <img src="img/bg-img/13.jpg" alt="">
+                <div class="instagram-hover-content text-center d-flex align-items-center justify-content-center">
+                    <a href="#">
+                        <i class="ti-instagram" aria-hidden="true"></i>
+                        <span>SR Photography</span>
+                    </a>
+                </div>
+            </div>
+            <!-- Single Instagram Item -->
+            <div class="single-instagram-item">
+                <img src="img/bg-img/14.jpg" alt="">
+                <div class="instagram-hover-content text-center d-flex align-items-center justify-content-center">
+                    <a href="#">
+                        <i class="ti-instagram" aria-hidden="true"></i>
+                        <span>SR Photography</span>
+                    </a>
+                </div>
+            </div>
+            <!-- Single Instagram Item -->
+            <div class="single-instagram-item">
+                <img src="img/bg-img/15.jpg" alt="">
+                <div class="instagram-hover-content text-center d-flex align-items-center justify-content-center">
+                    <a href="#">
+                        <i class="ti-instagram" aria-hidden="true"></i>
+                        <span>SR Photography</span>
+                    </a>
+                </div>
+            </div>
+            <!-- Single Instagram Item -->
+            <div class="single-instagram-item">
+                <img src="img/bg-img/16.jpg" alt="">
+                <div class="instagram-hover-content text-center d-flex align-items-center justify-content-center">
+                    <a href="#">
+                        <i class="ti-instagram" aria-hidden="true"></i>
+                        <span>SR Photography</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Follow Area End -->
+
+    <!-- Footer Area Start -->
+    <footer class="footer-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="footer-content d-flex align-items-center justify-content-between">
+                        <!-- Copywrite Text -->
+                        <div class="copywrite-text">
+                            <p><!-- Copy Rights by S.R Photography -->
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | SR Photography <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="#" target="_blank">Salunke Rahul</a>
+<!-- Copy Rights by S.R Photography --></p>
+                        </div>
+                        <!-- Footer Logo -->
+                        <div class="footer-logo">
+                            <a href="#"><img src="img/core-img/logo2.png" alt=""></a>
+                        </div>
+                        <!-- Social Info -->
+                        <div class="social-info">
+                            <a href="#"><i class="ti-facebook" aria-hidden="true"></i></a>
+                            <a href="#"><i class="ti-twitter-alt" aria-hidden="true"></i></a>
+                            <a href="#"><i class="ti-linkedin" aria-hidden="true"></i></a>
+                            <a href="#"><i class="ti-pinterest" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer Area End -->
+
+    <!-- **** All JS Files ***** -->
+    <!-- jQuery 2.2.4 -->
+    <script src="js/jquery.min.js"></script>
+    <!-- Popper -->
+    <script src="js/popper.min.js"></script>
+    <!-- Bootstrap -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- All Plugins -->
+    <script src="js/alime.bundle.js"></script>
+    <!-- Active -->
+    <script src="js/default-assets/active.js"></script>
+
+</body>
+
+</html>
